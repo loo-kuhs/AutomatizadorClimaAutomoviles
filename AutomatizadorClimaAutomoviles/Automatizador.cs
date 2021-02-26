@@ -234,5 +234,100 @@ namespace AutomatizadorClimaAutomoviles
             }
             lblVentilador.Text = calculo[indiceMax].variableLinguistica;
         }
+
+        private void btnParteDia_Click(object sender, EventArgs e)
+        {
+            Funciones calcular1 = new Funciones(3, 7, "");
+            Funciones calcular2 = new Funciones(6, 12, 18, "");
+            Funciones calcular3 = new Funciones(15, 18, "");
+
+            for (double x = 0; x < 20; x++)
+            {
+                y = calcular1.Hombro(x);
+                grafica5.Series[0].Points.AddXY(x, y);
+
+                y = calcular2.Triangular(x);
+                grafica5.Series[1].Points.AddXY(x, y);
+
+                y = calcular3.Saturacion(x);
+                grafica5.Series[2].Points.AddXY(x, y);
+
+            }
+        }
+
+        private void sbParteDia_Scroll(object sender, ScrollEventArgs e)
+        {
+            double[] y = new double[3];
+            valor = sbParteDia.Value;
+
+            Funciones[] calculo = new Funciones[3];
+
+            calculo[0] = new Funciones(3, 7, "Mañana");
+            y[0] = calculo[0].Hombro(valor);
+
+            calculo[1] = new Funciones(6, 12, 18, "Día");
+            y[1] = calculo[1].Triangular(valor);
+
+            calculo[2] = new Funciones(15, 18, "Noche");
+            y[2] = calculo[2].Saturacion(valor);
+
+            double yMax = y.Max();
+            int indiceMax = 0;
+            for (int i = 0; i <= 2; i++)
+            {
+                if (y[i] == yMax)
+                {
+                    indiceMax = i;
+                }
+            }
+            lblParteDia.Text = calculo[indiceMax].variableLinguistica;
+        }
+
+        private void btnResistencias_Click(object sender, EventArgs e)
+        {
+            Funciones calcular1 = new Funciones(0.1, 0, "");
+            Funciones calcular2 = new Funciones(2.4, 2.5, 2.6, "");
+            Funciones calcular3 = new Funciones(4.9, 1, "");
+
+            for (double x = 0; x < 5; x += 0.1)
+            {
+                y = calcular1.Hombro(x);
+                grafica6.Series[0].Points.AddXY(x, y);
+
+                y = calcular2.Triangular(x);
+                grafica6.Series[1].Points.AddXY(x, y);
+
+                y = calcular3.Saturacion(x);
+                grafica6.Series[2].Points.AddXY(x, y);
+            }
+        }
+
+        private void sbResistencias_Scroll(object sender, ScrollEventArgs e)
+        {
+            double[] y = new double[3];
+            valor = sbResistencias.Value;
+
+            Funciones[] calculo = new Funciones[3];
+
+            calculo[0] = new Funciones(0.1, 0, "Apagadas");
+            y[0] = calculo[0].Hombro(valor);
+
+            calculo[1] = new Funciones(2.4, 2.5, 2.6, "Medio");
+            y[1] = calculo[1].Triangular(valor);
+
+            calculo[2] = new Funciones(3.9, 1, "Encendidas");
+            y[2] = calculo[2].Saturacion(valor);
+
+            double yMax = y.Max();
+            int indiceMax = 0;
+            for (int i = 0; i <= 2; i++)
+            {
+                if (y[i] == yMax)
+                {
+                    indiceMax = i;
+                }
+            }
+            lblResistencias.Text = calculo[indiceMax].variableLinguistica;
+        }
     }
 }

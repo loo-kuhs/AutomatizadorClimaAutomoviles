@@ -29,35 +29,39 @@ namespace AutomatizadorClimaAutomoviles
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea19 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend19 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series43 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series44 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series45 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series46 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series47 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series48 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series49 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series50 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series51 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series52 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series53 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series54 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series55 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series56 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea20 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend20 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series57 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea17 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend17 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series58 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series59 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series60 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend21 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea18 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend18 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series61 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series62 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series63 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea22 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend22 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series64 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series65 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series66 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea23 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend23 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series67 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea24 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend24 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series68 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.grafica1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.grafica2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.grafica3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -104,155 +108,178 @@ namespace AutomatizadorClimaAutomoviles
             // 
             // grafica1
             // 
-            chartArea19.Name = "ChartArea1";
-            this.grafica1.ChartAreas.Add(chartArea19);
-            legend19.Name = "Legend1";
-            this.grafica1.Legends.Add(legend19);
+            chartArea13.Name = "ChartArea1";
+            this.grafica1.ChartAreas.Add(chartArea13);
+            legend13.Name = "Legend1";
+            this.grafica1.Legends.Add(legend13);
             this.grafica1.Location = new System.Drawing.Point(6, 19);
             this.grafica1.Name = "grafica1";
-            series52.ChartArea = "ChartArea1";
-            series52.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series52.Legend = "Legend1";
-            series52.Name = "Muy frío";
-            series53.ChartArea = "ChartArea1";
-            series53.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series53.Legend = "Legend1";
-            series53.Name = "Frío";
-            series54.ChartArea = "ChartArea1";
-            series54.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series54.Legend = "Legend1";
-            series54.Name = "Normal";
-            series55.ChartArea = "ChartArea1";
-            series55.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series55.Legend = "Legend1";
-            series55.Name = "Caliente";
-            series56.ChartArea = "ChartArea1";
-            series56.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series56.Legend = "Legend1";
-            series56.Name = "Muy caliente";
-            this.grafica1.Series.Add(series52);
-            this.grafica1.Series.Add(series53);
-            this.grafica1.Series.Add(series54);
-            this.grafica1.Series.Add(series55);
-            this.grafica1.Series.Add(series56);
+            series43.ChartArea = "ChartArea1";
+            series43.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series43.Legend = "Legend1";
+            series43.Name = "Muy frío";
+            series44.ChartArea = "ChartArea1";
+            series44.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series44.Legend = "Legend1";
+            series44.Name = "Frío";
+            series45.ChartArea = "ChartArea1";
+            series45.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series45.Legend = "Legend1";
+            series45.Name = "Normal";
+            series46.ChartArea = "ChartArea1";
+            series46.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series46.Legend = "Legend1";
+            series46.Name = "Caliente";
+            series47.ChartArea = "ChartArea1";
+            series47.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series47.Legend = "Legend1";
+            series47.Name = "Muy caliente";
+            this.grafica1.Series.Add(series43);
+            this.grafica1.Series.Add(series44);
+            this.grafica1.Series.Add(series45);
+            this.grafica1.Series.Add(series46);
+            this.grafica1.Series.Add(series47);
             this.grafica1.Size = new System.Drawing.Size(360, 212);
             this.grafica1.TabIndex = 0;
             this.grafica1.Text = "grafica1";
             // 
             // grafica2
             // 
-            chartArea20.Name = "ChartArea1";
-            this.grafica2.ChartAreas.Add(chartArea20);
-            legend20.Name = "Legend1";
-            this.grafica2.Legends.Add(legend20);
+            chartArea14.Name = "ChartArea1";
+            this.grafica2.ChartAreas.Add(chartArea14);
+            legend14.Name = "Legend1";
+            this.grafica2.Legends.Add(legend14);
             this.grafica2.Location = new System.Drawing.Point(6, 19);
             this.grafica2.Name = "grafica2";
-            series57.ChartArea = "ChartArea1";
-            series57.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series57.Legend = "Legend1";
-            series57.Name = "Muy poca";
-            series58.ChartArea = "ChartArea1";
-            series58.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series58.Legend = "Legend1";
-            series58.Name = "Poca";
-            series59.ChartArea = "ChartArea1";
-            series59.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series59.Legend = "Legend1";
-            series59.Name = "Normal";
-            series60.ChartArea = "ChartArea1";
-            series60.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series60.Legend = "Legend1";
-            series60.Name = "Mucha";
-            this.grafica2.Series.Add(series57);
-            this.grafica2.Series.Add(series58);
-            this.grafica2.Series.Add(series59);
-            this.grafica2.Series.Add(series60);
+            series48.ChartArea = "ChartArea1";
+            series48.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series48.Legend = "Legend1";
+            series48.Name = "Muy poca";
+            series49.ChartArea = "ChartArea1";
+            series49.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series49.Legend = "Legend1";
+            series49.Name = "Poca";
+            series50.ChartArea = "ChartArea1";
+            series50.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series50.Legend = "Legend1";
+            series50.Name = "Normal";
+            series51.ChartArea = "ChartArea1";
+            series51.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series51.Legend = "Legend1";
+            series51.Name = "Mucha";
+            this.grafica2.Series.Add(series48);
+            this.grafica2.Series.Add(series49);
+            this.grafica2.Series.Add(series50);
+            this.grafica2.Series.Add(series51);
             this.grafica2.Size = new System.Drawing.Size(360, 212);
             this.grafica2.TabIndex = 1;
             this.grafica2.Text = "chart2";
             // 
             // grafica3
             // 
-            chartArea21.Name = "ChartArea1";
-            this.grafica3.ChartAreas.Add(chartArea21);
-            legend21.Name = "Legend1";
-            this.grafica3.Legends.Add(legend21);
+            chartArea15.Name = "ChartArea1";
+            this.grafica3.ChartAreas.Add(chartArea15);
+            legend15.Name = "Legend1";
+            this.grafica3.Legends.Add(legend15);
             this.grafica3.Location = new System.Drawing.Point(6, 19);
             this.grafica3.Name = "grafica3";
-            series61.ChartArea = "ChartArea1";
-            series61.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series61.Legend = "Legend1";
-            series61.Name = "Cerrado";
-            series62.ChartArea = "ChartArea1";
-            series62.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series62.Legend = "Legend1";
-            series62.Name = "Entre abierto";
-            series63.ChartArea = "ChartArea1";
-            series63.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series63.Legend = "Legend1";
-            series63.Name = "Abierto";
-            this.grafica3.Series.Add(series61);
-            this.grafica3.Series.Add(series62);
-            this.grafica3.Series.Add(series63);
+            series52.ChartArea = "ChartArea1";
+            series52.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series52.Legend = "Legend1";
+            series52.Name = "Cerrado";
+            series53.ChartArea = "ChartArea1";
+            series53.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series53.Legend = "Legend1";
+            series53.Name = "Entre abierto";
+            series54.ChartArea = "ChartArea1";
+            series54.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series54.Legend = "Legend1";
+            series54.Name = "Abierto";
+            this.grafica3.Series.Add(series52);
+            this.grafica3.Series.Add(series53);
+            this.grafica3.Series.Add(series54);
             this.grafica3.Size = new System.Drawing.Size(360, 212);
             this.grafica3.TabIndex = 2;
             this.grafica3.Text = "chart3";
             // 
             // grafica4
             // 
-            chartArea22.Name = "ChartArea1";
-            this.grafica4.ChartAreas.Add(chartArea22);
-            legend22.Name = "Legend1";
-            this.grafica4.Legends.Add(legend22);
+            chartArea16.Name = "ChartArea1";
+            this.grafica4.ChartAreas.Add(chartArea16);
+            legend16.Name = "Legend1";
+            this.grafica4.Legends.Add(legend16);
             this.grafica4.Location = new System.Drawing.Point(6, 19);
             this.grafica4.Name = "grafica4";
-            series64.ChartArea = "ChartArea1";
-            series64.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series64.Legend = "Legend1";
-            series64.Name = "Apagado";
-            series65.ChartArea = "ChartArea1";
-            series65.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series65.Legend = "Legend1";
-            series65.Name = "Medio";
-            series66.ChartArea = "ChartArea1";
-            series66.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series66.Legend = "Legend1";
-            series66.Name = "Encendido";
-            this.grafica4.Series.Add(series64);
-            this.grafica4.Series.Add(series65);
-            this.grafica4.Series.Add(series66);
+            series55.ChartArea = "ChartArea1";
+            series55.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series55.Legend = "Legend1";
+            series55.Name = "Apagado";
+            series56.ChartArea = "ChartArea1";
+            series56.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series56.Legend = "Legend1";
+            series56.Name = "Medio";
+            series57.ChartArea = "ChartArea1";
+            series57.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series57.Legend = "Legend1";
+            series57.Name = "Encendido";
+            this.grafica4.Series.Add(series55);
+            this.grafica4.Series.Add(series56);
+            this.grafica4.Series.Add(series57);
             this.grafica4.Size = new System.Drawing.Size(360, 212);
             this.grafica4.TabIndex = 3;
             this.grafica4.Text = "chart4";
             // 
             // grafica5
             // 
-            chartArea23.Name = "ChartArea1";
-            this.grafica5.ChartAreas.Add(chartArea23);
-            legend23.Name = "Legend1";
-            this.grafica5.Legends.Add(legend23);
+            chartArea17.Name = "ChartArea1";
+            this.grafica5.ChartAreas.Add(chartArea17);
+            legend17.Name = "Legend1";
+            this.grafica5.Legends.Add(legend17);
             this.grafica5.Location = new System.Drawing.Point(6, 19);
             this.grafica5.Name = "grafica5";
-            series67.ChartArea = "ChartArea1";
-            series67.Legend = "Legend1";
-            series67.Name = "Series1";
-            this.grafica5.Series.Add(series67);
+            series58.ChartArea = "ChartArea1";
+            series58.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series58.Legend = "Legend1";
+            series58.Name = "Mañana";
+            series58.YValuesPerPoint = 2;
+            series59.ChartArea = "ChartArea1";
+            series59.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series59.Legend = "Legend1";
+            series59.Name = "Día";
+            series60.ChartArea = "ChartArea1";
+            series60.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series60.Legend = "Legend1";
+            series60.Name = "Noche";
+            this.grafica5.Series.Add(series58);
+            this.grafica5.Series.Add(series59);
+            this.grafica5.Series.Add(series60);
             this.grafica5.Size = new System.Drawing.Size(360, 212);
             this.grafica5.TabIndex = 4;
             this.grafica5.Text = "chart5";
             // 
             // grafica6
             // 
-            chartArea24.Name = "ChartArea1";
-            this.grafica6.ChartAreas.Add(chartArea24);
-            legend24.Name = "Legend1";
-            this.grafica6.Legends.Add(legend24);
+            chartArea18.Name = "ChartArea1";
+            this.grafica6.ChartAreas.Add(chartArea18);
+            legend18.Name = "Legend1";
+            this.grafica6.Legends.Add(legend18);
             this.grafica6.Location = new System.Drawing.Point(6, 19);
             this.grafica6.Name = "grafica6";
-            series68.ChartArea = "ChartArea1";
-            series68.Legend = "Legend1";
-            series68.Name = "Series1";
-            this.grafica6.Series.Add(series68);
+            series61.ChartArea = "ChartArea1";
+            series61.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series61.Legend = "Legend1";
+            series61.Name = "Apagadas";
+            series62.ChartArea = "ChartArea1";
+            series62.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series62.Legend = "Legend1";
+            series62.Name = "Medio";
+            series63.ChartArea = "ChartArea1";
+            series63.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series63.Legend = "Legend1";
+            series63.Name = "Encendidas";
+            this.grafica6.Series.Add(series61);
+            this.grafica6.Series.Add(series62);
+            this.grafica6.Series.Add(series63);
             this.grafica6.Size = new System.Drawing.Size(354, 212);
             this.grafica6.TabIndex = 5;
             this.grafica6.Text = "chart6";
@@ -432,15 +459,16 @@ namespace AutomatizadorClimaAutomoviles
             // 
             // sbParteDia
             // 
-            this.sbParteDia.Location = new System.Drawing.Point(125, 247);
+            this.sbParteDia.Location = new System.Drawing.Point(125, 237);
             this.sbParteDia.Name = "sbParteDia";
             this.sbParteDia.Size = new System.Drawing.Size(113, 23);
             this.sbParteDia.TabIndex = 13;
+            this.sbParteDia.Scroll += new System.Windows.Forms.ScrollEventHandler(this.sbParteDia_Scroll);
             // 
             // lblParteDia
             // 
             this.lblParteDia.AutoSize = true;
-            this.lblParteDia.Location = new System.Drawing.Point(277, 247);
+            this.lblParteDia.Location = new System.Drawing.Point(277, 242);
             this.lblParteDia.Name = "lblParteDia";
             this.lblParteDia.Size = new System.Drawing.Size(31, 13);
             this.lblParteDia.TabIndex = 6;
@@ -454,6 +482,7 @@ namespace AutomatizadorClimaAutomoviles
             this.btnParteDia.TabIndex = 5;
             this.btnParteDia.Text = "Graficar";
             this.btnParteDia.UseVisualStyleBackColor = true;
+            this.btnParteDia.Click += new System.EventHandler(this.btnParteDia_Click);
             // 
             // groupBox6
             // 
@@ -474,6 +503,7 @@ namespace AutomatizadorClimaAutomoviles
             this.sbResistencias.Name = "sbResistencias";
             this.sbResistencias.Size = new System.Drawing.Size(113, 23);
             this.sbResistencias.TabIndex = 13;
+            this.sbResistencias.Scroll += new System.Windows.Forms.ScrollEventHandler(this.sbResistencias_Scroll);
             // 
             // lblResistencias
             // 
@@ -492,6 +522,7 @@ namespace AutomatizadorClimaAutomoviles
             this.btnResistencias.TabIndex = 6;
             this.btnResistencias.Text = "Graficar";
             this.btnResistencias.UseVisualStyleBackColor = true;
+            this.btnResistencias.Click += new System.EventHandler(this.btnResistencias_Click);
             // 
             // Automatizador
             // 
