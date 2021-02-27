@@ -18,6 +18,15 @@ namespace AutomatizadorClimaAutomoviles
         public Automatizador()
         {
             InitializeComponent();
+
+            #region Matriz de Reglas Difusas
+            FAMTemperatura[,] famTemperatura = new FAMTemperatura[3, 5];
+
+            famTemperatura[0, 0].Resistencias = "Encendidas";
+            famTemperatura[0, 0].Ventilador = "Apagado";
+
+            #endregion
+
             sbTemperatura.Minimum = 0;
             sbTemperatura.Maximum = 39;
             sbIntensidadSolar.Minimum = 0;

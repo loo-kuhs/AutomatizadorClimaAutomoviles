@@ -53,6 +53,7 @@
     <Compile Include="Automatizador.Designer.cs">
       <DependentUpon>Automatizador.cs</DependentUpon>
     </Compile>
+    <Compile Include="FAMTemperatura.cs" />
     <Compile Include="Funciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
